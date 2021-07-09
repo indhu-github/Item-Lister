@@ -25,7 +25,7 @@ function addItem(e) {
 
   //we can use this as well to place the text in an li element
   //li.textContent = newItem;
-  //console.log(li);
+
   //Add text node with input value
   li.appendChild(document.createTextNode(newItem));
 
